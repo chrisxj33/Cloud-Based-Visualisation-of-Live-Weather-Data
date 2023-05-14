@@ -29,38 +29,17 @@ body, html {
 }
 
 #map-title {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1000;
-    padding: 10px 10px;
-    background: rgba(255,255,255,0.8);
-    border-radius: 4px;
-    text-align: center;
-    font-size: 2em; /* Increased font size */
-    font-weight: 700; /* Bolder font */
-    color: #333; /* Darker font color */
-    font-family: 'Montserrat', sans-serif;
-}
-
-/* For screens smaller than 800px wide */
-@media (max-width: 800px) {
-  #map-title {
-    font-size: 1.5em; /* Decrease font size */
-  }
-}
-
-/* For screens smaller than 600px wide */
-@media (max-width: 600px) {
-  #map-title {
-    font-size: 1.2em; /* Further decrease font size */
-  }
-}
-
-/* For screens smaller than 400px wide */
-@media (max-width: 400px) {
-  #map-title {
-    font-size: 1em; /* Further decrease font size */
-  }
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  padding: 10px 10px;
+  background: rgba(255,255,255,0.8);
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1.8vw; /* Adjust font size relative to viewport width */
+  font-weight: 700; /* Bolder font */
+  color: #333; /* Darker font color */
+  font-family: 'Montserrat', sans-serif;
 }
