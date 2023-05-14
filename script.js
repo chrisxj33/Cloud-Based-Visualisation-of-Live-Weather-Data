@@ -6,7 +6,7 @@ const map = L.map('map').setView([-37.0201, 144.9646], 8); // Map centered at [-
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | ' +
                  'Grid cells by <a href="https://eng.uber.com/h3/">Uber H3</a> | ' +
-                 'temperature data by <a href="https://open-meteo.com/">Open-Meteo</a> | ' +
+                 'Temperature data by <a href="https://open-meteo.com/">Open-Meteo</a> | ' +
                  'Work by Chris Johnson is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>'
 }).addTo(map);
 
