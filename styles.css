@@ -43,3 +43,24 @@ body, html {
     color: #333; /* Darker font color */
     font-family: 'Montserrat', sans-serif;
 }
+
+/* For screens smaller than 800px wide */
+@media (max-width: 800px) {
+  #map-title {
+    font-size: 1.5em; /* Decrease font size */
+  }
+}
+
+/* For screens smaller than 600px wide */
+@media (max-width: 600px) {
+  #map-title {
+    font-size: 1.2em; /* Further decrease font size */
+  }
+}
+
+/* For screens smaller than 400px wide */
+@media (max-width: 400px) {
+  #map-title {
+    font-size: 1em; /* Further decrease font size */
+  }
+}
