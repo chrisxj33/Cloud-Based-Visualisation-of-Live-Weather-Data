@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body, html {
+    height: 100%; /* Height of body and html elements */
+    margin: 0; /* Margin of body and html elements */
+}
+
+#map {
+    width: 100%; /* Width of map element */
+    height: 100%; /* Height of map element */
+}
+
+#cycleLayers {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    width: 150px;
+    background-color: #0078D7;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#map-title {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    padding: 10px 10px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 2em; /* Increased font size */
+    font-weight: 700; /* Bolder font */
+    color: #333; /* Darker font color */
+    font-family: 'Montserrat', sans-serif;
+}
