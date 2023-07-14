@@ -1,5 +1,7 @@
 # Grid Based Visualisation of Live Temperature Data
 
+Please be aware that the project is currently not operational due to the decommissioning of the Virtual Machine (VM). Nevertheless, the essential framework is preserved.
+
 ### Objectives
 - Create a geospatial grid-based model of Victoria using the H3 Python library.
 - Store the data on a PostgreSQL database with the PostGIS extension.
