@@ -35,3 +35,7 @@ temperature data accessible round the clock, operating as a fully automated syst
 - **Interactive Feature Implementation:** Implemented interactive features such as pop-ups and layer switching in the map interface, proving the capacity to enhance user experience and interaction with data.
 - **Full-stack Development:** Showcased full-stack development skills, with the ability to handle everything from database management, back-end and front-end development, to deploying the application.
 - Real-time Systems: Designed and maintained a system that offers live, daily temperature data accessible round the clock, indicating skills in developing real-time systems.
+
+### Results
+
+![image](https://github.com/chrisxj33/TemperatureGrid-Victoria/assets/53899548/fc62b609-431a-46bd-add8-3842daece8df)
