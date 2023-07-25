@@ -1,4 +1,4 @@
-# Grid Based Visualisation of Live Temperature Data
+# Cloud-Based Visualization of Live Weather Data"
 
 Please be aware that the project is currently not operational due to the decommissioning of the Virtual Machine (VM). Nevertheless, the essential framework is preserved.
 
