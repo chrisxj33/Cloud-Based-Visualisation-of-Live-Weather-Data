@@ -23,6 +23,8 @@ Summarizing the entire process, when a user clicks on the provided link, they ar
 
 The project can be broadly conceptualized into several stages, beginning with data processing. The grid system data created is then loaded into a database, which houses three distinct layers. Subsequently, a Python script is deployed to fetch temperature data from an API and insert it into the database. Set to run every 24 hours, this Python script ensures the daily update of temperature data. GeoServer is configured to publish these layers, thereby establishing a conduit for communication between the database and the map. Importantly, all of these processes are hosted on an Azure Virtual Machine to guarantee continuous uptime. The Leaflet map, with JavaScript code, is responsible for issuing data requests to GeoServer and returning the data back to the user. Additionally, JavaScript is leveraged to enrich map functionality, such as facilitating the switching between layers. The entire front end is hosted on GitHub Pages where the JS, HTML, and CSS data are stored.
 
+![image](https://github.com/chrisxj33/Cloud-Based-Visualisation-of-Live-Weather-Data/assets/53899548/02f7b144-4995-48e6-b9b8-ea9ebe5785a2)
+
 [Database Project.pdf](https://github.com/chrisxj33/Cloud-Based-Visualisation-of-Live-Weather-Data/files/12209381/Database.Project.pdf)
 
 ### Data Creation and Database
@@ -40,10 +42,11 @@ The next step was to write a Python script that would convert a geo-boundary int
 The code was executed three times to produce the three different resolution layers. Detail on the resolution of each layer can be
 viewed in the table below.
 
-Resolution | Area (km^2)
-4          | 896
-5          | 127
-6          | 18
+| Resolution | Area (km^2) |
+|------------|------------|
+| 4          | 896        |
+| 5          | 127        |
+| 6          | 18         |
 
 Upon successful creation of each layer, the next step involved integrating these layers into a PostgreSQL database with the PostGIS extension. It is crucial to ensure that each H3 layer is projected in the WGS:84 format, which was accounted for during the
 loading process. Once the database was operational, the next task was to incorporate temperature data into each cell. For this purpose, Open-Meteo was chosen as the weather data source, given its speedy API response and generous daily limit for free API calls. To facilitate this, an additional Python script was created. Providing a high-level overview, this script initiates a call to the API, processes and formats the retrieved data appropriately, and then executes an SQL command to incorporate the newly acquired data into the database.
