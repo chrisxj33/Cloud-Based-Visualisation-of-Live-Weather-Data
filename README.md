@@ -69,24 +69,18 @@ A more nuanced feature includes client side rendering. Due to the live and direc
 
 Through the execution of this project, several key skills were developed across various domains:
 
-**Geospatial Data Analysis and Manipulation:** Using geospatial libraries such as H3 and GeoPandas in Python to handle and manipulate geospatial data. Experience was also gained in using the QGIS software for geospatial data visualization and manipulation.
-
-**Database Management:** Creating and managing a PostgreSQL database with the PostGIS extension. This involved creating and structuring the database, importing geospatial data into the database, and writing SQL queries to insert and update data.
-
-**API Integration:** Interacting with APIs (in this case, the Open-Meteo API) to fetch data, process it, and integrate it into an existing system.
-
-**Server Configuration:** Configuring and managing a GeoServer instance for the purpose of publishing geospatial data layers. This involved setting up and maintaining the server, as well as configuring the server to communicate with the database.
-
-**Automation and Scheduling:** Automating the data retrieval and update process with a Python script, and scheduling it to run at regular intervals (every 24 hours).
-
-**Cloud Computing and Services:** Setting up and managing a cloud-based Virtual Machine on Azure, and overcoming associated challenges such as dealing with mixed content errors. Experience was also gained in configuring Azure's "Front Door" service for secure data transmission.
-
-**Web Development and GIS:** Web development (HTML, CSS, JavaScript) with a focus on building interactive geospatial applications. Experience was gained in using the Leaflet library for map creation, and implementing features such as layer switching and info pop-ups. A nuanced understanding was gained in client-side rendering for geospatial data.
-
-**Problem Solving:** Pproblem-solving and troubleshooting. Challenges such as dealing with mixed content errors, setting up secure data transmission, and dealing with live and direct communication between the map and GeoServer were successfully overcome.
-
-**Project Management:** Project management skills to effectively balance and coordinate various aspects, from data analysis to web development and server management.
+- **Geospatial Data Analysis and Manipulation:** Using geospatial libraries such as H3 and GeoPandas in Python to handle and manipulate geospatial data. Experience was also gained in using the QGIS software for geospatial data visualization and manipulation.
+- **Database Management:** Creating and managing a PostgreSQL database with the PostGIS extension. This involved creating and structuring the database, importing geospatial data into the database, and writing SQL queries to insert and update data.
+- **API Integration:** Interacting with APIs (in this case, the Open-Meteo API) to fetch data, process it, and integrate it into an existing system.
+- **Server Configuration:** Configuring and managing a GeoServer instance for the purpose of publishing geospatial data layers. This involved setting up and maintaining the server, as well as configuring the server to communicate with the database.
+- **Automation and Scheduling:** Automating the data retrieval and update process with a Python script, and scheduling it to run at regular intervals (every 24 hours).
+- **Cloud Computing and Services:** Setting up and managing a cloud-based Virtual Machine on Azure, and overcoming associated challenges such as dealing with mixed content errors. Experience was also gained in configuring Azure's "Front Door" service for secure data transmission.
+- **Web Development and GIS:** Web development (HTML, CSS, JavaScript) with a focus on building interactive geospatial applications. Experience was gained in using the Leaflet library for map creation, and implementing features such as layer switching and info pop-ups. A nuanced understanding was gained in client-side rendering for geospatial data.
+- **Problem Solving:** Pproblem-solving and troubleshooting. Challenges such as dealing with mixed content errors, setting up secure data transmission, and dealing with live and direct communication between the map and GeoServer were successfully overcome.
+- **Project Management:** Project management skills to effectively balance and coordinate various aspects, from data analysis to web development and server management.
 
 ### Results
+
+The web map interface.
 
 ![image](https://github.com/chrisxj33/TemperatureGrid-Victoria/assets/53899548/fc62b609-431a-46bd-add8-3842daece8df)
