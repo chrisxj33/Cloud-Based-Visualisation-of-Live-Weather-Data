@@ -2,7 +2,7 @@
 
 ### Importance
 
-Spatial distribution of data is pivotal for understanding geographical trends and patterns. Even more important is the scalability of the framework via the cloud.
+Spatial distribution of data is pivotal for understanding geographical trends and patterns. The exponential rise in data volume demands scalability of any framework via the cloud.
 
 ### Objectives
 
@@ -17,7 +17,7 @@ Spatial distribution of data is pivotal for understanding geographical trends an
 
 ### Summary
 
-Summarizing the entire process, when a user clicks on the provided link, they are redirected to the web map. This map immediately issues a data request to the Azure Virtual Machine (VM) hosting GeoServer. Upon receiving this request, GeoServer retrieves live data from the database and returns it to the map as a Web Feature Service (WFS). Extracting the geometry and attribute information, the map builds the hexagonal grid system, complete with styling and functionality. Simultaneously, a scheduled Python script constantly updates the database in the background. The culmination of this process is a web map that offers live temperature data accessible 24/7, operating as a fully automated system and all hosted on the cloud.
+When a user clicks on the provided link, they are redirected to the web map. This map immediately issues a data request to the Azure Virtual Machine (VM) hosting GeoServer. Upon receiving this request, GeoServer retrieves live data from the database and returns it to the map as a Web Feature Service (WFS). Extracting the geometry and attribute information, the map builds the hexagonal grid system, complete with styling and functionality. Simultaneously, a scheduled Python script constantly updates the database in the background. The culmination of this process is a web map that offers live temperature data accessible 24/7, operating as a fully automated system and all hosted on the cloud.
 
 ### Framework
 
