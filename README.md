@@ -6,14 +6,14 @@ Spatial distribution of data is pivotal for understanding geographical trends an
 
 ### Objectives
 
-- Create a geospatial grid-based model of Victoria using the H3 Python library.
-- Store the data on a PostgreSQL database with the PostGIS extension.
-- Collect and integrate weather data into the database using the Open-Meteo API and Python.
-- Schedule the process of updating the database with new data every 24 hours.
-- Publish the data on GeoServer for the maps access.
-- Host the backend (database & scripts) on an a cloud VM using Azure.
-- Develop an interactive map using Leaflet & JS for visualizing the weather data.
-- Implement interactive features such as info pop-ups and layer resolution switching in the map interface.
+- Create a geospatial **grid-based model** of Victoria using the **H3** Python library.
+- Store the data on a **PostgreSQL** database with the PostGIS extension.
+- Collect and integrate weather data into the database using the **Open-Meteo API** and Python.
+- **Schedule** the process of updating the database with new data every 24 hours.
+- Publish the data on **GeoServer** for the maps access.
+- Host the backend (database & scripts) on an a **cloud VM** using Azure.
+- Develop an **interactive map** using Leaflet & JS for visualizing the weather data.
+- Implement **interactive features** such as info pop-ups and layer resolution switching in the map interface.
 
 ### Summary
 
